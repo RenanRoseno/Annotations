@@ -15,7 +15,7 @@
 
 ## GIT KEYWORDS
 
-- _Branch:_ Ramificações de um projeto. Em outras palavras é como uma versão alternativa do seu projeto. Ele vem por padrão quando iniciamos(init) o branch master.
+- _Branch:_ Ramificações de um projeto. Em outras palavras é como uma versão alternativa do seu projeto. Ele vem por padrão quando iniciamos, o `branch` master.
 
 ## GIT STATES
 
