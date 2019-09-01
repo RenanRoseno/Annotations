@@ -43,4 +43,4 @@ function dobro (numero) => { return a * 2  };
 
 ### Imagens
 
-![](/src/sdsd/cdcc/gnu.png)
+![](07212509112402.jpg)
