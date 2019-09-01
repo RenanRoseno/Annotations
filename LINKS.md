@@ -4,7 +4,7 @@
 - _Mario Vergara:_ https://www.mairovergara.com/category/aprendendo-ingles-com-videos/
 
 #### OMNISTACK WEEK
- * ##### React & React-native:
+ ##### React & React-native:
 
 I. https://youtu.be/OhObopC_kXY
 
