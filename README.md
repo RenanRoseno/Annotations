@@ -11,3 +11,22 @@
 2. dsfgsdfg
 1. wsdfsdf
 3.  sdfdsfsd
+
+### Lista NÃO ordenada
+
+* sdklfn
+* sdlfkjf
+    ou
+- aaaa
+- bbbb
+
+[Links](www.google.com.br)
+
+### Quotes
+
+> dkjihfkjsdfhg
+
+### Listas de tarefas
+
+- [ ] sdafsdfsdfsdf
+- [X] sdafsdfsdfsdf
