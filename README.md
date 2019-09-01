@@ -30,3 +30,14 @@
 
 - [ ] sdafsdfsdfsdf
 - [X] sdafsdfsdfsdf
+
+### Códigos
+```
+function dobro (numero) => { return a * 2  };
+```
+### Tabelas
+
+| weifgeyh | jksdfhkh |
+|----------|----------|
+| asidodui | kasjhjdh |
+
