@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main(void)
 {
@@ -31,7 +30,7 @@ printf("Numero invertido eh: %d", numero);
 
 /*----------------------------------------------------------------------------------------------------------------*/
 #include <stdio.h>
-#include <math.h>
+
 
 /*----------------QUESTÃO 2 -----------------*/
 
