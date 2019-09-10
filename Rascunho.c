@@ -93,3 +93,23 @@ int main(void)
 printf (divisores == 2 ? "O numero %d eh primo" : "O numero %d NAO eh primo", n);
 
 }
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+#include <stdio.h>
+
+/*----------------QUESTÃO 5 -----------------*/
+
+int main(void)
+{
+
+	for(int i = 1; i < 10; i++)
+	{		
+		for(int j = 1; j <= 10; j++)
+		{
+			printf("\t%d X %d = %d\n", i, j, i * j);	
+		}
+		printf("|--------------------|\n");
+	}
+
+}
