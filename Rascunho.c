@@ -113,3 +113,39 @@ int main(void)
 	}
 
 }
+
+/*----------------------------------------------------------------*/
+
+#include <stdio.h>
+
+/*----------------QUESTÃO 6 -----------------*/
+
+int main(void)
+{
+	int n, n1;
+
+	printf("Digite dois valores (SEPARADOS POR ESPACO): ");
+	scanf("%d %d", &n, &n1);
+
+	if(n < n1)
+	{	
+
+		do{
+			printf(" %d |", n);
+			n++;
+		} while(n <= n1);	
+
+	} 
+	else if (n > n1)
+	{
+
+		do{
+			printf(" %d |", n);
+			n--;	
+		} while(n >= n1);	
+
+	} 
+	else
+		printf ("Os numeros sao iguais");
+
+}
