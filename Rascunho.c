@@ -48,3 +48,30 @@ int main(void)
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
+
+#include <stdio.h>
+
+
+/*----------------QUESTÃO 3 -----------------*/
+
+int main(void)
+{
+  int n, verdadeiro;
+
+	printf("Digite um numero: ");
+	scanf("%d", &n);
+
+	for(int i = 1; i <= n; i++){
+  	if( n == i * (i + 1) * (i + 2))
+		{
+			printf("O numero %d é triangular sendo os fatores: %d, %d, %d", n, i, i + 1, i + 2);
+			verdadeiro = 1;
+			break;
+		}else
+			verdadeiro = 0;
+	}
+
+	if(verdadeiro == 0)
+		printf("O numero %d NÃO é triangular", n);
+
+}
