@@ -69,3 +69,27 @@ int main(void)
 		printf("O numero %d NÃO é triangular", n);
 
 }
+ 
+/*-------------------------------------------------------------------------------------------------------------*/
+
+#include <stdio.h>
+
+/*----------------QUESTÃO 4 -----------------*/
+
+int main(void)
+{
+  int n, divisores = 2;
+
+
+	printf("Digite um numero: ");
+	scanf("%d", &n);
+
+	for(int i = 2; i < n; i++){
+		if (n % i == 0 ){
+			divisores += 1;
+		}
+	}
+
+printf (divisores == 2 ? "O numero %d eh primo" : "O numero %d NAO eh primo", n);
+
+}
