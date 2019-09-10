@@ -1,31 +1,91 @@
 #include <stdio.h>
 
-int main(void)
-{
-int i;
-int numero, numeroV[5];
+/* QUESTÃO 1 
+* 1. Fim da repetição será quando o usuário digitar um número inválido;
+*
+*
+*/
 
-printf("Digite um numero: ");
-scanf("%d", &numero);
+int main(void) {
+  
+  char d1,d2,d3,d4,d5,d6,d7,d8,d9,d10;
 
-for(i=0; numero; i++)
- {  
-  numeroV[i] = numero % 10;
-  numero /= 10;
+  int i, control = 1;
 
-  printf("Vetor: %d e numero: %d\n ", numeroV[i], numero);
- }
+  while(control == 1)
+  {
+    printf("\nDigite a quantidade de digitos: ");
+    scanf("%d", &i);
 
- printf("Numero: %d\n", numero);
+    switch (i)
+    {
+      case 1:
+        printf("Digite o numero para ser convertido: "); 
+        scanf("\n%c", &d1);
+        printf("\tNumero inverso : %c\n", d1);
+        break;
 
-for(int j=0; j<i; j++)
-  { 
-  numero += numeroV[j] * pow(10, (i-j-1)); 
-  printf("Numero: %d \n", numero);
-  }
+      case 2:
+        printf("Digite o numero para ser convertido: "); 
+        scanf("\n%c%c", &d1,&d2);
+        printf("\tO numero inverso e: %c%c\n", d2,d1);
+        break;
 
-printf("Numero invertido eh: %d", numero);
+      case 3:
+        printf("Digite o numero para ser convertido: "); 
+        scanf("\n%c%c%c", &d1,&d2,&d3);
+        printf("\tO numero inverso e: %c%c%c\n", d3,d2,d1);
+        break;
 
+      case 4:
+        printf("Digite o numero para ser convertido: "); 
+        scanf("\n%c%c%c%c", &d1,&d2,&d3,&d4);
+        printf("\tO numero inverso e: %c%c%c%c\n", d4,d3,d2,d1);
+        break;
+
+      case 5:
+        printf("Digite o numero para ser convertido: "); 
+        scanf("\n%c%c%c%c%c", &d1,&d2,&d3,&d4,&d5);
+        printf("\tO numero inverso e: %c%c%c%c%c\n",d5,d4,d3,d2,d1);
+        break;
+
+      case 6:
+        printf("Digite o numero para ser convertido: "); 
+        scanf("\n%c%c%c%c%c%c", &d1,&d2,&d3,&d4,&d5,&d6);
+        printf("\tO numero inverso e: %c%c%c%c%c%c\n", d6,d5,d4,d3,d2,d1);
+        break;
+
+      case 7:
+        printf("Digite o numero para ser convertido: ");  
+        scanf("\n%c%c%c%c%c%c%c", &d1,&d2,&d3,&d4,&d5,&d6, &d7);
+        printf("\tO numero inverso e: %c%c%c%c%c%c%c\n", d7, d6,d5,d4,d3,d2,d1);
+        break;
+
+      case 8:
+        printf("Digite o numero para ser convertido: "); 
+        scanf("\n%c%c%c%c%c%c%c%c", &d1,&d2,&d3,&d4,&d5,&d6, &d7, &d8);
+        printf("\tO numero inverso e: %c%c%c%c%c%c%c%c\n", d8, d7, d6,d5,d4,d3,d2,d1);
+        break;
+
+      case 9:
+        printf("Digite o numero para ser convertido: ");  
+        scanf("\n%c%c%c%c%c%c%c%c%c", &d1,&d2,&d3,&d4,&d5,&d6, &d7, &d8, &d9);
+        printf("\tO numero inverso e: %c%c%c%c%c%c%c%c%c\n", d9, d8, d7, d6,d5,d4,d3,d2,d1);
+        break;
+
+      case 10:
+        printf("Digite o numero para ser convertido: "); 
+        scanf("\n%c%c%c%c%c%c%c%c%c%c", &d1,&d2,&d3,&d4,&d5,&d6, &d7, &d8, &d9, &d10);
+        printf("\tO numero inverso e: %c%c%c%c%c%c%c%c%c%c\n", d10, d9, d8, d7, d6,d5,d4,d3,d2,d1);
+        break;
+
+      default :
+        return 1;
+        control = 0;
+        break;
+      }
+    }
+  return 0;
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
